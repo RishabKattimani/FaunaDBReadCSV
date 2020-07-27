@@ -12,7 +12,7 @@ client = FaunaClient(secret=config.secret) # Connection To Fauna
 
 # ------------------------------------------------------------------------------
 #  Reading CSV File
-with open('data - data (2).csv', 'r') as read_obj:
+with open('data.csv', 'r') as read_obj:
 
     csv_reader = reader(read_obj)
 
